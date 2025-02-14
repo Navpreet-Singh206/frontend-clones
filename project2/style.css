@@ -1,0 +1,294 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+}
+
+header{
+width:100%;
+height:72px;
+position:absolute;
+top:0px;
+}
+.container{
+    height:52px;
+    width:100%;
+    
+    margin-top:5px;
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logobox{
+    width:136px;
+    height:52px;
+    display: inline-block;
+   
+    position: relative;
+    top:0px;
+}
+.logobox a{
+    height:50px;
+    width:130px;
+   background-image:url("logo2.jpg");
+   background-size:100% 140%;
+  display:inline-block;
+  color:#0070ba;
+  
+}
+.buttonscon{
+    
+    height:52px;
+    width:35%;
+  
+    margin-top:5px;
+
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.buttonscon button{
+    
+color:#2c2e2f;
+background-color: white;
+font-weight: 500;
+border:none;
+font-size:0.88rem;
+    height:65.6px;
+    width:110px;
+
+border: none;
+margin-top:5px;
+}
+.form{
+   
+    height:52px;
+    width:174px;
+    font-weight: 400;
+color:#2c2e2f;
+background-color: white;
+border:none;
+font-size:0.88rem;
+margin-top:10px;
+
+}
+.form button{
+width:84px;
+margin-top:7px;
+margin-right:1px;
+height:37.6px;
+font-size: 0.75rem;
+padding:12px 18px;
+color:#0070ba;
+border-radius: 1.4rem;
+border:0.5px solid #0070ba;
+background-color: white;
+text-align: center;
+}
+section{
+    width:100%;
+    height:480px;
+    position: relative;
+    top:72px;
+    color:white;
+
+}
+.heroimage{
+    width:100%;
+    height:480px;
+    background-image:url("hero-banner-desktop-2.jpg");
+    background-size: cover;
+}
+section h1{
+font-size:2.8rem;
+}
+.paro{
+    font-size:1.5rem;
+    padding:20px 0 34px;
+}
+.contenthero{
+    width:746px;
+    height:270px;
+    padding: 110px 80px;
+    font-weight: 400;
+
+}
+.contenthero button{
+    font-size:0.88rem;
+    border:1px solid white;
+    background-color: transparent;
+    border-radius: 1.4rem;
+    width:93.6px;
+    height: 35.2px;
+    color:white;
+    margin-right:20px;
+}
+.secoA2{
+    width:100%;
+    height:156px;
+    background-color: #001345;
+    color:white;
+    margin-top:0.10px;
+}
+.herosupport{
+    width:100%;
+    height:156px;
+    background-color: #001345;
+    color:white;
+    margin-top:0.15px;
+   
+    
+}
+.paro2{
+    font-weight: bolder;
+    font-size:1.5rem;
+    margin-bottom:5px;
+    
+}
+.herosupport span{
+    font-size:1.3rem;
+
+}
+.suppo{
+    height:75.6px;
+    width:100%;
+ padding-top:50px;
+ padding-left:200px;
+    
+}
+.maincont{
+width:100%;
+height:680px;
+padding:60px 0;
+}
+.containerbod{
+    width:100%;
+    height:620px;
+ 
+}
+.heado{
+    color:#001c64;
+    width:100%;
+    text-align: center;
+    padding-bottom:  40px;
+}
+.heado h2{
+    font-size: 2rem;
+    
+}
+.boxes{
+    width:100%;
+    height:500px;
+ 
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box1{
+    width:300px;
+    height:400px;
+    
+
+}
+.img1{
+    width:300px;
+    height:300px;
+    background-image:url("box1.jpg");
+    background-size:130% 100%;
+}
+.box2{
+    width:350px;
+    height:400px;
+   
+}
+.img2{
+    width:100%;
+    height:300px;
+    background-image:url("box2pal.jpg");
+    background-size:100% 100%;
+}
+.box3{
+    width:350px;
+    height:400px;
+   
+}
+.img3{
+    width:100%;
+    height:300px;
+    background-image:url("box3pal.jpg");
+    background-size:100% 100%;
+}
+.boxes h4{
+color:black;
+font-size:1.2rem;
+padding-top: 40px;
+padding-left: 10px;
+}
+.boxes p{
+    color:#0070ba;
+    font-size:0.88rem;
+padding-top: 20px;
+padding-left: 10px;
+}
+footer{
+    width:100%;
+    height: 900px;
+}
+.dujolast{
+    width:100%;
+    height: 980px;
+  margin-top: 80px;
+   padding-left:140px;
+   padding-right: 140px;
+    font-size: 0.88rem;
+    display: inline-block;
+ 
+}
+.logo4{
+    background-image: url("foooto.jpg");
+    background-size: 99.99% 100%;
+   background-color:white;
+    width:146px;
+    height:52px;
+    margin-bottom: 38.4px;
+}
+.contactinfo{
+    width:703px;
+    height:40px;
+    color:black;
+    border-bottom:0.5px solid black;
+}
+.contactinfo a{
+    width:51px;
+    height:20px;
+    margin:0 60px 20px 0;
+}
+.about{
+    width:516px;
+    height:30px;
+    margin:20px 60px 10px 0;  
+    
+}
+.about a{
+    margin: 0 54px 20px 0;
+}
+.ico{
+    margin:10px 0 14px;
+    color:#03045e;
+}
+.lastride{
+    margin-top:40px;
+    font-size:0.88rem;
+    width:100%;
+    height:750px;
+    color:#03045e;
+}
+ol li{
+    list-style-position: inside;
+}
+.dujolast p{
+    display: inline-block;
+}
