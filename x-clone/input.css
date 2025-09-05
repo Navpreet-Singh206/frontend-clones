@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@layer components {
+  .bigSize-icon {
+  
+    font-size: 2rem !important; /* Override Google's default size */
+  }
+
+.smallSize-icon{
+    font-size :  1.05rem !important;
+}
+.medSize-icon{
+    font-size : 1.5rem;
+}
+
+}
+
+
